@@ -6,7 +6,7 @@ import { Montserrat } from "next/font/google";
 import Link from "next/link"
 
 const montserrat = Montserrat({
-    subset: ["latin"],
+    subsets: ["latin"],
     weight: ["300", "400", "700"]
 });
 

@@ -31,7 +31,7 @@ export default function Services() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await axios.get("http://localhost:8000/serviceex");
+        const res = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/serviceex`);
         setSerData(res.data);
       } catch (error) {
         console.error("Service fetch error:", error);

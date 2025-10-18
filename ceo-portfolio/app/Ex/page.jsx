@@ -4,6 +4,7 @@ import Skills from "@/app/Ex/Skills/page"
 import Services from "./Services/page";
 import Team from "./Teampage/page";
 import Testimonies from "./Testimonials/page";
+import fFAQs from "../../app/Ex_pages/fFAQs/page"
 
 export default function Ex() {
     return(
@@ -13,6 +14,7 @@ export default function Ex() {
             <Services/>
             <Skills/>
             <Team/>
+            <fFAQs/>
             <Testimonies/>
         </div>
     )

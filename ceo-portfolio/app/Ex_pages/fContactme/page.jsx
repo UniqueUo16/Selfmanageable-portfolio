@@ -40,7 +40,7 @@ export default function FContactMe() {
     if (imageUpload) formData.append("image", imageUpload);
 
     try {
-      const res = await fetch("http://localhost:8000/send-email", {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/send-mail`, {
         method: "POST",
         body: formData,
       });

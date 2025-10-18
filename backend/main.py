@@ -14,7 +14,8 @@ app = FastAPI()
 # Allow frontend to access backend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    allow_origins=["*"],  # or ["https://your-frontend-domain.com"]
+    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -44,7 +45,7 @@ hero_data = HeroData(
     social_links=[
         {"icon": "linkedin", "href": "https://www.linkedin.com/in/unique-uo-19b570341?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"},
         {"icon": "whatsapp", "href": "/Ex_pages/Watsapp"},
-        {"icon": "X", "href": "#"},
+        {"icon": "X", "href": "https://x.com/mahrezbr?s=21"},
         {"icon": "minutemailer", "href": "#"}
     ]
 )

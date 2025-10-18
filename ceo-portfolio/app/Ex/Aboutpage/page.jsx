@@ -44,7 +44,7 @@ export default function AboutPage() {
  useEffect(()=> {
    async function fetchData() {
     try {
-      const res = await axios.get("http://localhost:8000/aboutex") 
+      const res = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/aboutex`) 
       setaboutData(res.data);
     } catch (err) {
       console.log("Axios fetch err:", err);

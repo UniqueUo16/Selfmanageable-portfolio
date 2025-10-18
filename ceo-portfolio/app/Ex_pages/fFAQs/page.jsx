@@ -7,11 +7,12 @@ export default function FAQS() {
   const [openIndex, setOpenIndex] = useState(null);
 
   const faqs = [
-    { q: "Question 1", a: "This is the answer for question 1." },
-    { q: "Question 2", a: "This is the answer for question 2." },
-    { q: "Question 3", a: "This is the answer for question 3." },
-    { q: "Question 4", a: "This is the answer for question 4." },
-    { q: "Question 5", a: "This is the answer for question 5." },
+   { q: "What technologies do you work with?", a: "I mainly work with React, Next.js, Node.js, FastAPI (Python), and MongoDB. I also use Tailwind CSS for styling and deploy projects on platforms like Render and Vercel." },
+{ q: "Can you handle both frontend and backend?", a: "Yes! I enjoy working across the full stack — building clean, responsive UIs on the frontend and powerful APIs on the backend that tie everything together." },
+{ q: "Do you build or use APIs?", a: "Definitely. I’ve built and integrated REST APIs, handled authentication, and connected apps to services like email systems and databases." },
+{ q: "Are your projects optimized and fast?", a: "Performance is always a priority for me. I write clean, efficient code and focus on quick load times and smooth user experiences." },
+{ q: "How do you usually solve coding challenges?", a: "I take a logical approach — break the problem down, understand the root cause, and build a clean, scalable fix. I like keeping things simple and reliable." },
+
   ];
 
   const toggleFAQ = (index) => {

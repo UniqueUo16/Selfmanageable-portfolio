@@ -29,7 +29,7 @@ export default function Hero() {
 useEffect(() => {
   async function fetchData() {
     try {
-      const res = await axios.get("http://localhost:8000/hero");
+      const res = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/hero`);
       setheroData(res.data);
     } catch (err) {
       console.error("Axios fetch error:", err);

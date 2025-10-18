@@ -12,7 +12,7 @@ export default function Testimonials() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await axios.get("http://localhost:8000/testimonialex");
+        const res = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/testimonialex`);
         setTestimonial(res.data);
       } catch (error) {
         console.log(error);

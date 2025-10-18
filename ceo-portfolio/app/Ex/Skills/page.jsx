@@ -65,7 +65,7 @@ export default function Skills() {
   useEffect(() => {
     const fetchSkills = async () => {
       try {
-        const res = await axios.get("http://localhost:8000/skillex");
+        const res = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/skillex`);
         setSkillsData(res.data);
       } catch (err) {
         console.error("Error fetching skills:", err);

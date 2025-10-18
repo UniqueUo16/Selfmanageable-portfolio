@@ -53,7 +53,7 @@ export default function Dashboard() {
 
   const handleDeleteTeam = async () => {
     try {
-      const res = await axios.delete("http://localhost:8000/team");
+      const res = await axios.delete(`${process.env.NEXT_PUBLIC_API_URL}/team`);
       alert(res.data.status || "Team deleted ✅");
     } catch (err) {
       console.error("Error deleting team:", err);

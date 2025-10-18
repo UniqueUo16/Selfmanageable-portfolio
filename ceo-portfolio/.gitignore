@@ -16,6 +16,9 @@ id_rsa.pub
 *.key
 *.env
 
+# .gitignore
+.env.local
+
 # testing 
 
 /coverage
