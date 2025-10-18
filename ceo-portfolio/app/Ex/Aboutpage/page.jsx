@@ -102,7 +102,7 @@ if (!aboutData) {
         
                   {/* Foreground Image */}
                   <Image
-                    src="/remo.png"
+                    src="/imgs/potrait.PNG"
                     alt="pic"
                     fill
                     className="relative object-scale-down rounded-full mt-[2rem]"

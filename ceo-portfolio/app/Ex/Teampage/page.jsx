@@ -98,7 +98,7 @@ export default function Project() {
   title: "Smart Portfolio & API System(under improvements)",
   description:
     "A full-stack personal portfolio ecosystem built with Next.js and FastAPI. It features a dynamic content API, auto-deployment pipelines, modular components, and seamless backend integration hosted on Render and Vercel. The system showcases modern frontend architecture, asynchronous data fetching, and API-driven updates — all optimized for speed and scalability.",
-  img: "/imgs/portfolio_live.JPG",
+  img: "/imgs/projectimg.PNG",
   featuresHeader: "KEY FEATURES",
   features: [
     "Fully dynamic sections powered by a FastAPI backend",
