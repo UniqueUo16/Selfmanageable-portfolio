@@ -12,9 +12,17 @@ from pydantic import EmailStr
 app = FastAPI()
 
 # Allow frontend to access backend
+
+origins=[
+        "https://uniqueuoportfolio.vercel.app",
+     "http://localhost:3000",
+     "uniqueuoportfolio-b3kwqq7hq-uniqueuos-projects.vercel.app","https://uniqueuoportfolio-8fv1jf14g-uniqueuos-projects.vercel.app", "uniqueuoportfolio.vercel.app"
+    ]  # or ["https://your-frontend-domain.com"]
+
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://uniqueuoportfolio.vercel.app", "http://localhost:3000"],  # or ["https://your-frontend-domain.com"]
+    allow_origins=origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

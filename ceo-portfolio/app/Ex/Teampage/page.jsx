@@ -41,9 +41,10 @@ export default function Project() {
       ],
       techStackheader: "TECH STACK",
       techstack: ["Next.js", "TailwindCSS", "MongoDB", "Next.js API Routes"],
-      github: "https://github.com/Unique_16/Ethical.git-",
+      github: "https://github.com/UniqueUo16/Ngo-management-platform",
       demo: "https://hopesbridgefoundation.vercel.app",
     },
+    //-------------------------
     {
       title: "Resturant & Delivery Platform",
       description:
@@ -64,9 +65,10 @@ export default function Project() {
       ],
       techStackheader: "TECH STACK",
       techstack: ["Next.js", "C#", "Javascript", "Maps API", "Payment-Integration", "TailwindCss", "Real-time-Tracking"],
-      github: "https://github.com/UniqueUo16/selfmanageable-Portfolio-platform",
-      demo: "https://resturant-v.02.vercel.app",
+      github: "https://github.com/ UniqueUo16/Restaurant-delivery-app.",
+      demo: "#",
     },
+    //-----------------------------
     {
       title: "Shipping & Logistics Platform",
       description:
@@ -87,9 +89,46 @@ export default function Project() {
       ],
       techStackheader: "TECH STACK",
       techstack: ["Next.js", "Maps API", "Real time updates", "email automation", "Payment-Integration", "TailwindCss", "Real-time-Tracking"],
-      github: "https://github.com/Unique_16/AIResume",
-      demo: "https://resturant-v.02.vercel.app",
+      github: "https://github.com/UniqueUo16/shipping-tracking-platfom",
+      demo: "#",
     },
+    //---------------------------------------------------------
+
+    {
+  title: "Smart Portfolio & API System(under improvements)",
+  description:
+    "A full-stack personal portfolio ecosystem built with Next.js and FastAPI. It features a dynamic content API, auto-deployment pipelines, modular components, and seamless backend integration hosted on Render and Vercel. The system showcases modern frontend architecture, asynchronous data fetching, and API-driven updates — all optimized for speed and scalability.",
+  img: "/imgs/portfolio_live.JPG",
+  featuresHeader: "KEY FEATURES",
+  features: [
+    "Fully dynamic sections powered by a FastAPI backend",
+    "Auto-deployment with CI/CD across Render and Vercel",
+    "Optimized for fast loading and SEO using Next.js 15",
+    "Modular design system and reusable components",
+    "Live data synchronization with real-time API updates",
+  ],
+  highlightsHead: "TECHNICAL HIGHLIGHTS",
+  highlights: [
+    "Integrated CORS-secured REST API using FastAPI",
+    "Built Axios-powered async fetches for smooth rendering",
+    "Backend hosted on Render with persistent uptime",
+    "Frontend deployed on Vercel for lightning-fast performance",
+    "Optimized Lighthouse score through image and font preloading",
+  ],
+  techStackheader: "TECH STACK",
+  techstack: [
+    "Next.js 15",
+    "FastAPI (Python)",
+    "Render (Backend)",
+    "Vercel (Frontend)",
+    "Tailwind CSS",
+    "Axios",
+    "Uvicorn",
+  ],
+  github: "https://github.com/UniqueUO16/Selfmanageable-portfolio",
+  demo: "https://uniqueuoportfolio.vercel.app",
+}
+
   ];
 
   return (

@@ -9,6 +9,7 @@ import { SiX, SiLinkedin, SiWhatsapp, SiMinutemailer } from "react-icons/si";
 import axios from "axios"
 import { LoaderCircle } from "lucide-react";
 import Link from "next/link";
+import { Linkedin } from "lucide-react";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -167,7 +168,10 @@ if (!heroData) {
           <div className="flex gap-[5rem] font-extrabold"
           style={{fontVariant: "small-caps"}}>
             <button className="mt-[4rem] border rounded-2xl p-2">
-                <span>Download My Cv</span>
+                <a href='https://www.linkedin.com/in/unique-uo-19b570341?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+                target="_blank" rel="noopener noreferrer"
+                >  <Linkedin className="inline-block mr-2" /> View My LinkedIn</a>
+                
             </button>
             <button className="mt-[4rem] border p-3 border-gray-500 rounded-2xl">
                 <Link href="/Ex/Teampage/#projects">See my projects</Link>
