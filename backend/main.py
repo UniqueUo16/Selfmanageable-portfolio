@@ -14,7 +14,7 @@ app = FastAPI()
 # Allow frontend to access backend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # or ["https://your-frontend-domain.com"]
+    allow_origins=["https://uniqueuoportfolio.vercel.app", "http://localhost:3000"],  # or ["https://your-frontend-domain.com"]
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
