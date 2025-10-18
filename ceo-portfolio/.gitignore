@@ -16,7 +16,8 @@ id_rsa.pub
 *.key
 *.env
 
-# testing
+# testing 
+
 /coverage
 
 # next.js
