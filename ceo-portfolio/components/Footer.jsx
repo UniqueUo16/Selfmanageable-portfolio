@@ -12,7 +12,7 @@ export default function Footer() {
         
         {/* Logo / Brand */}
         <div className={`${montserrat.className}`}>
-          <h2 className= "not-last:text-2xl font-bold text-white">YourName</h2>
+          <h2 className= "not-last:text-2xl font-bold text-white">UniqueUO</h2>
           <p className="mt-4 text-sm text-gray-400">
             Helping Business Grow WIth Passion
           </p>
@@ -22,10 +22,10 @@ export default function Footer() {
         <div className={`${montserrat.className}`}>
           <h3 className="text-lg font-semibold text-white mb-4">Quick Links</h3>
           <ul className="space-y-2 text-sm">
-            <li><a href="#about" className="hover:text-white">About</a></li>
-            <li><a href="#projects" className="hover:text-white">Projects</a></li>
-            <li><a href="#skills" className="hover:text-white">Skills</a></li>
-            <li><a href="#contact" className="hover:text-white">Contact</a></li>
+            <li><a href="/Ex/Aboutpage" className="hover:text-white">About</a></li>
+            <li><a href="/Ex/Teampage/#projects" className="hover:text-white">Projects</a></li>
+            <li><a href="/Ex/Skills" className="hover:text-white">Skills</a></li>
+            <li><a href="/Ex_pages/fContactme" className="hover:text-white">Contact</a></li>
           </ul>
         </div>
 
@@ -34,8 +34,8 @@ export default function Footer() {
           <h3 className= "text-lg font-semibold text-white mb-4 ">Contact</h3>
           <ul className="space-y-2 text-sm">
             <li>Email: <u><a href="mailto:uounique251@gmail.com"  className="hover:text-white">uounique251@gmail.com.com </a></u></li>
-            <li>Phone: <a href="tel:+1234567890" className="hover:text-white">+123 456 7890</a></li>
-            <li>Location: Lagos, Nigeria</li>
+            <li>Phone: <a href="tel:+2349060214104" className="hover:text-white">+2349060214104</a></li>
+            <li>Location: Benin, Nigeria</li>
           </ul>
         </div>
 
