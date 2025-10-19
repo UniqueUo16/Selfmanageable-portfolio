@@ -33,7 +33,7 @@ export default function Footer() {
         <div className={`${montserrat.className}`}>
           <h3 className= "text-lg font-semibold text-white mb-4 ">Contact</h3>
           <ul className="space-y-2 text-sm">
-            <li>Email: <u><a href="mailto:uounique251@gmail.com"  className="hover:text-white">uounique251@gmail.com.com </a></u></li>
+            <li>Email: <u><a href="mailto:uounique251@gmail.com"  className="hover:text-white">uounique251@gmail.com </a></u></li>
             <li>Phone: <a href="tel:+2349060214104" className="hover:text-white">+2349060214104</a></li>
             <li>Location: Benin, Nigeria</li>
           </ul>

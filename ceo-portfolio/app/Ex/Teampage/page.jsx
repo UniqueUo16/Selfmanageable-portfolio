@@ -41,7 +41,7 @@ export default function Project() {
       ],
       techStackheader: "TECH STACK",
       techstack: ["Next.js", "TailwindCSS", "MongoDB", "Next.js API Routes"],
-      github: "https://github.com/UniqueUo16/Ngo-management-platform",
+      github: "#"
       demo: "https://hopesbridgefoundation.vercel.app",
     },
     //-------------------------
@@ -65,7 +65,7 @@ export default function Project() {
       ],
       techStackheader: "TECH STACK",
       techstack: ["Next.js", "C#", "Javascript", "Maps API", "Payment-Integration", "TailwindCss", "Real-time-Tracking"],
-      github: "https://github.com/ UniqueUo16/Restaurant-delivery-app.",
+      github: "https://github.com/UniqueUo16/Resturant-tracking-platform",
       demo: "#",
     },
     //-----------------------------
