@@ -58,7 +58,7 @@ export default function Testimonials() {
         >
           <div className="flex flex-col items-center">
             <Image
-              src="/pic.png"
+              src="/imgs/potrait.PNG"
               alt="Client"
               width={100}
               height={100}
