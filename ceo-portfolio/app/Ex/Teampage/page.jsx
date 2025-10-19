@@ -41,7 +41,7 @@ export default function Project() {
       ],
       techStackheader: "TECH STACK",
       techstack: ["Next.js", "TailwindCSS", "MongoDB", "Next.js API Routes"],
-      github: "#"
+      github: "#",
       demo: "https://hopesbridgefoundation.vercel.app",
     },
     //-------------------------
