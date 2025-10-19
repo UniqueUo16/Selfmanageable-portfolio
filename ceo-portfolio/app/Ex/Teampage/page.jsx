@@ -17,7 +17,6 @@ export default function Project() {
     return () => window.removeEventListener("keydown", handleKey);
   }, []);
 
-  // 🔹 Project Data
   const projects = [
     {
       title: "Hopes Bridge Foundation - NGO Management Platform",
@@ -44,7 +43,6 @@ export default function Project() {
       github: "#",
       demo: "https://hopesbridgefoundation.vercel.app",
     },
-    //-------------------------
     {
       title: "Resturant & Delivery Platform",
       description:
@@ -68,7 +66,6 @@ export default function Project() {
       github: "https://github.com/UniqueUo16/Resturant-tracking-platform",
       demo: "#",
     },
-    //-----------------------------
     {
       title: "Shipping & Logistics Platform",
       description:
@@ -92,7 +89,6 @@ export default function Project() {
       github: "https://github.com/UniqueUo16/shipping-tracking-platfom",
       demo: "#",
     },
-    //---------------------------------------------------------
 
     {
   title: "Smart Portfolio & API System(under improvements)",
