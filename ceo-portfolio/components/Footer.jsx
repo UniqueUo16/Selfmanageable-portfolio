@@ -53,7 +53,7 @@ export default function Footer() {
 
       {/* Copyright */}
       <div className={`${montserrat.className} text-center border-t border-gray-700 mt-10 pt-6 text-sm text-gray-500 `}>
-        © {new Date().getFullYear()} YourName. All Rights Reserved.
+        © {new Date().getFullYear()} UniqueUO. All Rights Reserved.
       </div>
     </footer>
   );
